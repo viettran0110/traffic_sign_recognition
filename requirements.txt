@@ -1,0 +1,7 @@
+ultralytics==8.0.196
+roboflow
+opencv-python
+matplotlib
+pillow
+PyYAML
+ipython
