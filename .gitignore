@@ -1,0 +1,5 @@
+*.pt
+.env
+/content/*
+/runs/
+__pycache__/

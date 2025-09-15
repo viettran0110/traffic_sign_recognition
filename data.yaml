@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 58
+
+names: [‘DP.135: Het moi lenh cam’, ‘P.102: Cam di nguoc chieu’, ‘P.103a: Cam xe oto’, ‘P.103b: Cam oto re phai’, ‘P.103c: Cam oto re trai’, ‘P.104: Cam xe may’, ‘P.106a: Cam xe oto tai’, ‘P.106b: Cam xe oto tai co khoi luong chuyen cho lon hon so ghi tren bien’, ‘P.107a: Cam xe oto khach’, ‘P.112: Cam nguoi di bo’, ‘P.115: Han che tai trong toan bo xe’, ‘P.117: Han che chieu cao’, ‘P.123a: Cam cac phuong tien re trai’, ‘P.123b: Cam cac phuong tien re phai’, ‘P.124a: Cam quay dau xe’, ‘P.124b: Cam oto quay dau xe’, ‘P.124c: Cam re trai va quay dau xe’, ‘P.125: Cam vuot’, ‘P.127: Toc do toi da cho phep’, ‘P.128: Khong duoc su dung coi’, ‘P.130: Cam dung va do xe’, ‘P.131a: Cam do xe’, ‘P.137: Cam re trai, re phai’, ‘P.245a: lane cho tung loai xe’, ‘R.301c: Chi duoc re trai’, ‘R.301d: Chi duoc re phai’, ‘R.301e: Hieu lenh re trai’, ‘R.302a: Phai di vong sang phai’, ‘R.302b: Phai di vong sang trai’, ‘R.303: Noi giao nhau chay theo vong xuyen’, ‘R.407a: Duong mot chieu’, ’R.409: Diem quay xe’, ‘R.425: Benh vien’, ‘R.434: Ben xe buyt’, ‘S.509a: Chieu cao an toan’, ‘W.201a: Cho ngoat nguy hiem vong ben trai’, ‘W.201b: Cho ngoat nguy hiem vong ben phai’, ‘W.202: Nhieu cho ngoat nguy hiem lien tiep’, ‘W.203a: Duong hep hai ben’, ‘W.203b: Duong hep ben trai’, ‘W.203c: Duong hep ben phai’, ‘W.205a: Duong giao nhau’, ‘W.205b: Giao lo’, ‘W.205d: Noi duong giao nhau’, ‘W.207a: Giao nhau voi duong uu tien’, ‘W.207b: Giao nhua voi duong khong uu tien ben phai’, ‘W.207c: Giao nhau voi duong khong uu tien ben trai’, ‘W.208: Giao nhau voi duong uu tien’, ‘W.209: Giao nhau co tin hieu den’, ‘W.210: Giao nhau voi duong sat’, ‘W.219: Doc xuong nguy hiem’, ‘W.221b: Duong co go giam toc’, ‘W.224: Duong nguoi di bo cat ngang’, ‘W.225: Tre em’, ‘W.227: Cong truong phia truoc’, ‘W.233: Nguy hiem khac’, ‘W.235: Bien bao duong doi’, ‘W.245a: Di cham’]
+
+roboflow:
+  workspace: vietnam-traffic-sign-detection
+  project: vietnam-traffic-sign-detection-2i2j8
+  version: 6
+  license: Public Domain
+  url: https://universe.roboflow.com/vietnam-traffic-sign-detection/vietnam-traffic-sign-detection-2i2j8/dataset/6
